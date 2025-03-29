@@ -95,7 +95,7 @@ a {
     width: 100%;
     margin: auto;
     overflow: hidden;
-    max-height: 600px;
+    max-height: 680px;
 }
 
 .carousel-inner {
@@ -175,7 +175,7 @@ a {
 .about-section {
     text-align: center;
     padding: 50px 20px;
-    margin-top: 200px;
+    padding-top: 200px;
     display: flex;
     flex-flow: row nowrap;
 
@@ -298,4 +298,74 @@ a {
     margin-top: 100px;
     margin-bottom: 40px;
     font-size: xx-large;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}
+
+.footer-section p {
+    color: #bbb;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section i {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #aaa;
+    font-size: 0.9rem;
 }
